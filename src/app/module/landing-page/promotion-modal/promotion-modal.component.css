@@ -1,0 +1,20 @@
+.promotion-details {
+    background-color: #f8f9fa; /* Color de fondo */
+    border: 1px solid #dee2e6; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio inferior */
+    margin: 20px 30px;
+  }
+  
+  .promotion-details p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+  }
+  
+  .promotion-details strong {
+    color: #007bff; /* Color del texto fuerte */
+  }
+  
+  .title {
+    margin: 20px 30px;
+  }

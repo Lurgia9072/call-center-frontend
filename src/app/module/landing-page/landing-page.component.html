@@ -1,0 +1,32 @@
+
+ <h1 class="title">Lista de Productos</h1>
+
+
+<div class="table-container">
+  <button (click)="insert($event)">Agregar</button>
+  <table class="product-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.description }}</td>
+        <td>{{ product.price }}</td>
+        <td><button  style="margin: 20px;" (click)="selectProduct(product)">Promocion</button>
+          <button style="margin: 20px;" (click)="Edit(product)">Editar</button>
+          <button style="margin: 20px;" (click)="Delete(product)">Eliminar</button>
+        </td>
+        
+
+      </tr>
+    </tbody>
+  </table>
+</div>

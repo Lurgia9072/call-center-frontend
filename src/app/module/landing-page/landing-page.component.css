@@ -1,0 +1,39 @@
+.table-container {
+    margin: 0 auto; /* Centra horizontalmente */
+    width: 80%; /* Ancho de la tabla */
+  }
+  
+  .product-table {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #dddddd; /* Bordes de las celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+  }
+  
+  .product-table button {
+    padding: 5px 10px; /* Espaciado del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntador */
+  }
+  
+  .product-table button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+  }
+  
+  .title{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+  }
